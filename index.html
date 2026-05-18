@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 40px;
+            background: #f5f5f5;
+        }
+
+        form {
+            background: white;
+            padding: 24px;
+            border-radius: 8px;
+            max-width: 400px;
+            margin: 0 auto;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .field {
+            margin-bottom: 16px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            background: #0066cc;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            opacity: 0.9;
+        }
+    </style>
+
+</head>
+<script type="text/javascript" async src="https://d2umgtt5tsqx05.cloudfront.net/js/loader-scripts/37c417d5-3210-423a-87b4-a7a486315d5c-loader.js" ></script>
+<body>
+
+<form>
+    <h2>Cadastro</h2>
+
+    <div class="field">
+        <label for="name">Nome</label>
+        <input type="text" id="name" name="name" required />
+    </div>
+
+    <div class="field">
+        <label for="email">Nome</label>
+        <input type="text" id="email" name="email" required />
+    </div>
+
+    <div class="field">
+        <label for="address">Endereço</label>
+        <input type="text" id="address" name="address" required />
+    </div>
+
+    <button type="submit">Enviar</button>
+</form>
+
+</body>
+</html>
